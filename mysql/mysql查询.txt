@@ -1,0 +1,25 @@
+select max(chinese),max(english),max(math) from  scores where year=2019
+
+select min(chinese),min(english),min(math) from  scores where year=2019
+
+select * from scores where year=2019 order by chinese DESC limit 2 
+
+select * from scores where year=2019 order by  math desc limit 3
+
+select * from scores where year=2019 order by english desc limit 3,3
+
+select * from scores where year=2019 and chinese<60 and english<60 and math<60
+
+select * from scores where year=2019 and stu_no like '%0'
+
+select *from scores where year=2019 and english=66 or english=77 or english=33
+
+select * from scores where year=2019 and english between 60 and 70
+
+select * from scores where year=2019 order by math asc limit 5
+
+select count(english)  from scores where year=2019 and english<60
+
+select avg(math) from scores where year=2019
+
+select year, avg(english),avg(chinese),avg(math) from scores group by year
