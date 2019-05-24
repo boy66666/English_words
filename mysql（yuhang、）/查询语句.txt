@@ -1,0 +1,44 @@
+1.select max(english) from  scores where year='2019'; 
+ select max(chinese) from  scores where year='2019';
+ select max(math) from  scores where year='2019';
+
+
+
+2.select min(english) from  scores where year='2019';
+   select min(Chinese) from  scores where year='2019';
+   select min(math) from  scores where year='2019';
+
+
+3.select * from scores where year='2019' order by Chinese desc limit 3,3;
+  
+
+4.select * from scores where year='2019' order by math desc limit 2,1;
+
+
+5.select * from scores where year='2019' order by english desc limit 3,3;
+
+
+6.select min(math) from scores where year='2019';
+  select min(chinese) from scores where year='2019';
+  select min(english) from scores where year='2019';
+
+
+7.select * from scores where year=2019 and stu_no like '%0';
+
+8.select *from scores where year=2019 and english=66 or english=77 or english=33;
+
+
+9.select * from scores where year=2019 and english between 60 and 70£»
+
+
+10.select * from scores where year=2019 order by math asc limit 5£»
+
+
+11.select count(english)  from scores where year=2019 and english<60£»
+
+
+
+12.select avg(math) from scores where year=2019£»
+
+
+13.select year, avg(english),avg(chinese),avg(math) from scores group by year£»
