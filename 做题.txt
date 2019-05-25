@@ -1,0 +1,81 @@
+一、elves_A包含字段序号（id）、姓名（name）、成绩（score）、电话（tel）、家庭住址（home）、年龄（age）、性别（sex）
+
+1.查询elves_A表中的电话信息   select * from  elves_A  where tel;
+
+2.查询elves_A表中的姓名、电话两列的信息 
+select * from elves_A where name and tel;
+
+3.查询表elves_A中文定的所有信息
+ select * from elves_A where name=文定;
+
+4.查询表elves_A中文定的姓名与家庭住址
+  select * from elves_A where name=文定 and home=文定;
+
+5.查询表elves_A中杨霄的年龄
+ select age  from elves_A where name=杨霄;
+
+6.查询表elves_A中年龄是25岁的所有人的所有信息
+ select * from elves_A where age=25;
+
+7.查询表elves_A中id是００７的姓名与家庭住址  
+select * from elves_A where id=007;
+
+８.查询elves_A表中年龄在２０～３０或４０～５０ 
+select * from  elves_A where age betweem 20 and 30 ;
+
+１０.查询elves_A表中年龄在２０以内或者３０以上的所有信息  
+select * from elves_A  where age>20;
+
+１１.查询elves_A表中年龄大于２０且小于３０的所有信息
+ select * from elves_A where age >20 and age <30; 
+
+１２.查询elves_A表中年龄大于２４且是男性的信息 
+select * from elves_A where age >24 and sex=男；
+
+１３.查询elves_A表中年龄大于２４且是男性的电话信息
+
+ select * from elves_A where age>24 and sex=男 and tel;
+
+１４.查询elves_A表中年龄在２０～３０之间，住在火星或丐帮的男性名字和电话  
+
+select * from elves_A where age between 20 and 30  and  home in ("火星 ", "丐帮") and sex= 男；
+
+１５.查询elves_A表中电话为１５９３７４９１０１４，年龄在２０岁以内的性别、名字和住址   
+select sex,name,home from elves_A where tel='15937491014' and age<20;
+
+１６.查询elves_A表中姓张的基本信息 
+  select * from elves_A name like='张%'
+ 
+１７.查询elves_A表中电话包含０３７４的人的基本信息
+ select * from elves_A tel like='%0374%'
+
+１８.查询elves_A表中年龄为２０所有姓李的基本信息  
+ select * from elves_A age=20 and name like '李%'
+
+１９.查询elves_A表中学生id以１００开头且成绩在６０~70之间的学生信息
+ select * from elves_A   where id like '100%' and score between 60 and 70;
+
+20.查询elves_A表中电话以123结尾的所有信息
+ select * from elves_A where tel like '%123';
+
+21.查询elves_A表中家庭住址包含长葛关键字的所有信息并按奈年龄倒叙排列
+ select * from elves_A   where home  like '%长葛%'   ORDER BY  age ;
+
+22.查询elves_A表中的所有信息，对编号进行倒叙 
+ select * from elves_A order by id;
+
+
+23.查询elves_A表中家住在河南年龄小于30大于20并把序号倒叙
+  select * from elves_A order by homg=河南   age  between 30 and 20 ;
+
+24.查询elves_A表中前三位的所有信息 年龄按正序排列
+ select * from elves_A  order by  age  asc limit;
+
+25.对elves_A表中的年龄进行分组
+  select age from elves_a 
+
+27.统计elves_A表中年龄 
+select  count (age)  from elves_A;
+
+28.统计电话包含0374的信息  
+select count(tel) from elves_A where tel like '%0374%' ;
