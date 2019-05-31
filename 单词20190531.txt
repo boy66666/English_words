@@ -1,0 +1,62 @@
+1. count  
+
+2. in 
+
+3. 排序
+
+4. 删除
+
+5. 三大数据库
+
+6.常见浏览器
+
+7.倒叙、正序
+
+8.avg
+
+9.sum
+
+10. top
+
+11. 数据库
+
+12. 数据表
+
+13.  all
+
+14.  any
+
+15.  default
+
+16.  primary  key
+
+17.  unique
+
+18.  not  null
+
+19.  字符型 2种
+
+20.  api
+
+21.  request 、response
+
+22.  status  code
+
+23.  name、age
+
+24.  整型、枚举类型
+
+25.  设置值   （update语句中）
+
+26.  模糊查询
+
+27. 分组
+
+28. success 、 error 
+
+29. 值
+
+30. 创建 
+
+
+ 
