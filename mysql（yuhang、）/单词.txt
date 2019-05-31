@@ -1,0 +1,7 @@
+  order by  排序 ;    delete  删除 ;  mysql, sql selver, orale, 三大数据库  ;
+  三大浏览器 IE ,firefox,chrone,    desc 倒序,sum求和   
+ database 数据库   all所有  ;any;   default   ;   primary key;   
+unique;	not null;  utf-8； api ; 	request;		response;  
+status code  ;   name名字，age 年龄;   like模糊查询;set设置值；
+		group by 分组；	success,error
+values值；		create 创建；	
