@@ -1,0 +1,57 @@
+1. count  计数，统计
+
+2. in   在。。。里
+
+3. 排序  order by
+
+4. 删除 delete
+
+5. 三大数据库  orecal  mysql sqlsever
+
+6. 常见浏览器 google chrome ， firefox ， IE
+
+7. 倒序、正序    desc，asc
+
+8. avg  平均值
+
+9. sum  求和
+
+10. top  顶部
+
+11. 数据库  database
+
+12. 数据表  table
+
+13. all  全部
+
+14. any  任何
+
+15. default  未执行  
+
+16. primary key    主键
+ 
+17. unique   唯一
+
+18. not null  不能为空
+
+20. api   
+
+21. request、response     请求，回应
+
+22. status code  状态码
+
+23. name、age   姓名，年龄
+
+24. 整型、枚举类型    int，enum
+
+25. 设置值  set
+
+26. 模糊查询  like
+
+27. 分组   gruop by
+
+28. success ，error   成功，错误
+
+29. 值   values
+
+30. 创建  create
