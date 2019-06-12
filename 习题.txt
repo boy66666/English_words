@@ -1,0 +1,26 @@
+class baskeball:
+    def __init__(self,qiaodan,kebi,weide,maidi):
+        # baskeball = qiaodan("两个三连冠")
+        # baskeball = kebi("单场82分")
+        # baskeball = weide("NBA后卫盖帽王")
+        # baskeball = maidi("前无古人后无来者35秒13分的奇迹")
+
+
+        self.qiaodan = qiaodan
+        self.kebi = kebi
+        self.weide = weide
+        self.maidi = maidi
+    def __str__(self):
+
+        return"功就:%s,两个三连冠:%s,单场82分:%s,NBA后卫盖帽王,前无古人后无来者35秒13分的奇迹%s"%(self.qiaodan,self.kebi,self.weide,self.maidi)
+
+
+
+
+if __name__ == '__main__':
+    fengzhizi=baskeball("两个三连冠","单场82分","NBA后卫盖帽王","前无古人后无来者35秒13分的奇迹")
+    print(fengzhizi)
+
+
+
+
